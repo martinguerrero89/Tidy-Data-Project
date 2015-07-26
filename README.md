@@ -94,5 +94,18 @@ The outcome is a data.frame of 180 observations and 68 variables called TIDY.
 ```
 head(TIDY)
 ```
- 
-Github repo for Getting and Cleaning Data Course of Coursera Data Science Specialization 
+```
+ subject activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
+1       1 STANDING         0.2885845       -0.02029417        -0.1329051
+2       1 STANDING         0.2784188       -0.01641057        -0.1235202
+3       1 STANDING         0.2796531       -0.01946716        -0.1134617
+4       1 STANDING         0.2791739       -0.02620065        -0.1232826
+5       1 STANDING         0.2766288       -0.01656965        -0.1153619
+6       1 STANDING         0.2771988       -0.01009785        -0.1051373
+```
+Were the first column has the subject identificator, the second columm is the activity performed by the subject and the following columns are all the features measured
+
+For more information on each variable read the codebook in the present repo
+
+
+
