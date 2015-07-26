@@ -71,11 +71,11 @@ head(test)
 
 ###2_ The two dataframes will be merged into one
 
-#3 Since the activity column has a reference number, each number is replaced with the corresponding activity name
+###3_ Since the activity column has a reference number, each number is replaced with the corresponding activity name
 using the activity_label file
 head(XYTT)
 
-#4 Creates the final Tidy dataset ussing the agreggate function to obtain the average measurment of each variable for each activity performed by every subject.
+###4_ Creates the final Tidy dataset ussing the agreggate function to obtain the average measurment of each variable for each activity performed by every subject.
 The outcome is a data.frame of 180 observations and 68 variables called TIDY.
 head(TIDY)
 
