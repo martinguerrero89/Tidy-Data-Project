@@ -55,8 +55,8 @@ Pleas verify the folder has the original name "UCI HAR Dataset", otherwise the c
 After Downloading the data run the "run_analysis.R" file in this repo
 The code will perform the following steps.
 
-##1 It will load a function that will be applied for the training and the test set separately.
-The function will do the following:
+###1_Load a function that will be applied for the training and the test set separately.
+####The function will do the following:
 
 -1.a Load the X, Y and Subjects archives of the set into the worksapce
 -1.b Load the features file
@@ -69,7 +69,7 @@ The first 6 row of each individual data.frame can be loaded into the console typ
 head(train)
 head(test)
 
-#2 The two dataframes will be merged into one
+###2_ The two dataframes will be merged into one
 
 #3 Since the activity column has a reference number, each number is replaced with the corresponding activity name
 using the activity_label file
