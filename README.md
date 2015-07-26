@@ -76,7 +76,7 @@ The function will do the following:
   - 1.e Combines the Subject, the Activity and the Features tables into one single data.frame
   - 1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
 
-The first 6 row of each individual data.frame can be loaded into the console typing
+The first 6 rows of each individual data.frame can be loaded into the console typing
 ```
 head(train)
 
@@ -105,7 +105,14 @@ head(TIDY)
 ```
 Were the first column has the subject identificator, the second columm is the activity performed by the subject and the following columns are all the features measured
 
+####5_ The tidy dataset is saved in the working directory
+```
+write.table(TIDY, "tidydataset.txt",row.name=FALSE) 
+```
+
 For more information on each variable read the codebook in the present repo
+
+
 
 
 
