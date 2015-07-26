@@ -59,7 +59,7 @@ To run the analysis you should download the course data into your working direct
 
 url= "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
-***Pleas verify the folder has the original name "UCI HAR Dataset" and that it is placed in the working directory, otherwise the code won't work.***
+***Please verify the folder has the original name "UCI HAR Dataset" and that it is placed in the working directory, otherwise the code won't work.***
 
 After Downloading the data run the "run_analysis.R" file available in this repo
 
