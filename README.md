@@ -55,15 +55,15 @@ Pleas verify the folder has the original name "UCI HAR Dataset", otherwise the c
 After Downloading the data run the "run_analysis.R" file in this repo
 The code will perform the following steps.
 
-#1 It will load a function that will be applied for the training and the test set separately.
+##1 It will load a function that will be applied for the training and the test set separately.
 The function will do the following:
 
-#1.a Load the X, Y and Subjects archives of the set into the worksapce
-#1.b Load the features file
-#1.c Assign a new (and understandable) Column name for the Subjects, the Activity and the Features columns
-#1.d Extract de mean() and the Std() measures for all the features
-#1.e Combines the Subject, the Activity and the Features tables into one single data.frame
-#1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
+-1.a Load the X, Y and Subjects archives of the set into the worksapce
+-1.b Load the features file
+-1.c Assign a new (and understandable) Column name for the Subjects, the Activity and the Features columns
+-1.d Extract de mean() and the Std() measures for all the features
+-1.e Combines the Subject, the Activity and the Features tables into one single data.frame
+-1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
 
 The first 6 row of each individual data.frame can be loaded into the console typing
 head(train)
