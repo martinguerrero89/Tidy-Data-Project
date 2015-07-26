@@ -66,8 +66,8 @@ The code will perform the following steps.
 -1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
 
 The first 6 row of each individual data.frame can be loaded into the console typing
-head(train)
-head(test)
+'''head(train)'''
+'''head(test)'''
 
 ###2_ The two dataframes will be merged into one
 
