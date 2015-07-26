@@ -61,7 +61,7 @@ url= "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%2
 
 Pleas verify the folder has the original name "UCI HAR Dataset", otherwise the code won't work.
 
-After Downloading the data run the "run_analysis.R" file in this repo
+After Downloading the data run the "run_analysis.R" file available in this repo
 
 The code will perform the following steps.
 
