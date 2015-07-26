@@ -65,15 +65,16 @@ After Downloading the data run the "run_analysis.R" file available in this repo
 
 The code will perform the following steps.
 
-##1_Load a function that will be applied for the training and the test set separately.
-####The function will do the following:
+####1_Load a function that will be applied for the training and the test set separately.
+ 
+The function will do the following:
 
-- 1.a Load the X, Y and Subjects archives of the set into the worksapce
-- 1.b Load the features file
-- 1.c Assign a new (and understandable) Column name for the Subjects, the Activity and the Features columns
-- 1.d Extract de mean() and the Std() measures for all the features
-- 1.e Combines the Subject, the Activity and the Features tables into one single data.frame
-- 1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
+  - 1.a Load the X, Y and Subjects archives of the set into the worksapce
+  - 1.b Load the features file
+  - 1.c Assign a new (and understandable) Column name for the Subjects, the Activity and the Features columns
+  - 1.d Extract de mean() and the Std() measures for all the features
+  - 1.e Combines the Subject, the Activity and the Features tables into one single data.frame
+  - 1.f Gives the new dataframe a name according to the set that was used in the function (train or test)
 
 The first 6 row of each individual data.frame can be loaded into the console typing
 ```
@@ -82,13 +83,13 @@ head(train)
 head(test)
 ```
 
-###2_ The two dataframes will be merged into one
+####2_ The two dataframes will be merged into one
 
-###3_ Since the activity column has a reference number, each number is replaced with the corresponding activity name using the activity_label file
+####3_ Since the activity column has a reference number, each number is replaced with the corresponding activity name using the activity_label file
 ```
 head(XYTT)
 ```
-###4_ Creates the final Tidy dataset ussing the agreggate function to obtain the average measurment of each variable for each activity performed by every subject.
+####4_ Creates the final Tidy dataset ussing the agreggate function to obtain the average measurment of each variable for each activity performed by every subject.
 The outcome is a data.frame of 180 observations and 68 variables called TIDY.
 ```
 head(TIDY)
