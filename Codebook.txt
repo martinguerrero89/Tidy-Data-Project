@@ -10,7 +10,7 @@ Which subject participated in each group can be found in the train/subject_train
 
 ###Activities
 =================
-Each subject performed 6 different activities repeated times as following
+Each subject performed 6 different activities repeated times that consisted of:
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
@@ -49,11 +49,13 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were used in this analysis were: 
+The set of variables estimations that were used in this analysis were: 
 
-mean(): Mean value
+mean(): Mean value of the signal
 std(): Standard deviation
 
 getting a total of 66 variables
+
+The average signal of the variable for each activity for each subject was taken into account for the final tidy dataset.
 
 The complete list of variables of each feature vector is available in 'features.txt'
